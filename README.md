@@ -1,1 +1,22 @@
-# rmeddpm-code
+# RME-DDPM: Conditional Diffusion Models for Radio Map Estimation
+
+## Overview
+
+**RME-DDPM** is a novel approach for radio map estimation using conditional diffusion probabilistic models. Radio map estimation is a critical task in telecommunications, enabling the prediction of signal strength across various environments. RME-DDPM integrates diffusion processes with environmental context (e.g., building layouts, transmitter locations) to generate accurate radio maps. This model significantly improves upon traditional methods, providing more efficient, scalable, and accurate predictions for signal strength distribution in both urban and rural settings.
+
+This repository contains the code implementation for RME-DDPM, including training, testing, and evaluation scripts.
+
+## Installation
+
+To run the code, follow these steps:
+
+1. ** Clone the respository**:
+```
+git clone https://github.com/xiaotanmo/RME-DDPM.git
+cd RME-DDPM
+```
+
+2. **Set up the environment**:
+
+3. 
+   
