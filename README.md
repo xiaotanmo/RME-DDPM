@@ -6,7 +6,7 @@
 
 This repository contains the code implementation for RME-DDPM, including training, testing, and evaluation scripts.
 
-## Installation
+## Usage
 
 To run the code, follow these steps:
 
@@ -42,3 +42,8 @@ Run the script:
 ```python
 python run.py -p test -c config/inpainting_celebahq.json
 ```
+
+## Acknowledge
+## Acknowledgement
+
+This work, **RME-DDPM: Conditional Diffusion Models for Radio Map Estimation**, is based on the code from the [Palette Image-to-Image Diffusion Models](https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models/tree/main) repository. I am grateful to the contributors for their work, which has been a helpful resource in developing this project.
