@@ -40,7 +40,7 @@ python run.py -p train -c config/radiomap.json
 5. **Testing**:
 Run the script:
 ```python
-python run.py -p test -c config/inpainting_celebahq.json
+python run.py -p test -c config/radiomap.json
 ```
 
 ## Acknowledge
