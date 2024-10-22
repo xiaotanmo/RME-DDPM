@@ -10,13 +10,35 @@ This repository contains the code implementation for RME-DDPM, including trainin
 
 To run the code, follow these steps:
 
-1. ** Clone the respository**:
+1. **Clone the respository**:
 ```
 git clone https://github.com/xiaotanmo/RME-DDPM.git
 cd RME-DDPM
 ```
 
 2. **Set up the environment**:
-
-3. 
+```
+pip install -r requirements.txt
+```
    
+3. **Dataset Preparation**:
+RadioMapSeer(https://radiomapseer.github.io/)
+
+4. **Training/Resume Training**:
+Set the path:
+```
+"path": {
+	"resume_state": "PATH/TO/CKPT"
+},
+```
+
+Run the script:
+```python
+python run.py -p train -c config/radiomap.json
+```
+
+5. **Testing**:
+Run the script:
+```python
+python run.py -p test -c config/inpainting_celebahq.json
+```
